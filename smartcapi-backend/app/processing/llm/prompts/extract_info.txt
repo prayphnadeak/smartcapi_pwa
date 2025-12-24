@@ -1,0 +1,17 @@
+Below is an ASR transcription result of an interview. Your task is to extract all the questionnaire information.
+
+CRITICAL RULE: If the transcript contains noise, gibberish, or foreign language hallucinations (e.g. "además"), return null for the fields.
+CRITICAL RULE: For 'nomor_telepon' and 'alamat_email', if the respondent mentions forgetting or not having it (e.g. "lupa", "tidak ingat", "gak punya"), return "-".
+
+### FEW-SHOT Examples ###
+
+Example 1 (Valid):
+Transkrip: "Nama saya Rina."
+Output: {"nama": "Rina"}
+
+Example 2 (Noise/Hallucination):
+Transkrip: "además kan saya... video stuti... klasik CAPI... panggung karya"
+Output: {"nama": null}
+
+### PROCESS THIS INPUT ###
+Transkrip: {transcript}
