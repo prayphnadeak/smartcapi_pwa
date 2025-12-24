@@ -1,0 +1,68 @@
+@startuml
+title User Registration Sequence
+
+actor Client as "User / Frontend"
+participant API as "API Gateway\n(FastAPI)"
+participant DB as "Database\n(PostgreSQL/SQLite)"
+
+Client -> API: POST /api/v1/auth/register\n(username, email, password, full_name, phone, role)
+activate API
+
+note right of Client
+  Payload:
+  {
+    "username": "newuser",
+    "email": "user@example.com",
+    "password": "secretpassword",
+    "full_name": "New User",
+    "phone": "1234567890",
+    "role": "enumerator"
+  }
+end note
+
+API -> DB: Query User(email)
+activate DB
+DB --> API: Result (None or User)
+deactivate DB
+
+alt User email exists
+    API --> Client: 400 Bad Request\n("The user with this email already exists")
+    destroy API
+end
+
+API -> DB: Query User(username)
+activate DB
+DB --> API: Result (None or User)
+deactivate DB
+
+alt User username exists
+    API --> Client: 400 Bad Request\n("The user with this username already exists")
+    destroy API
+end
+
+API -> API: Hash Password
+API -> API: Create User Object
+
+API -> DB: Add User
+activate DB
+API -> DB: Commit
+API -> DB: Refresh User
+DB --> API: User Created
+deactivate DB
+
+API --> Client: 200 OK\n(User Schema - no password)
+deactivate API
+
+note right of Client
+  Response:
+  {
+    "id": 1,
+    "username": "newuser",
+    "email": "user@example.com",
+    "full_name": "New User",
+    "role": "enumerator",
+    "is_active": true
+  }
+end note
+
+@enduml

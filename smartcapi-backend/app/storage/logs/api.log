@@ -1,0 +1,828 @@
+2025-12-16 06:05:35,909 - api - INFO - System logs cleared by user admin@smartcapi.com
+2025-12-16 06:05:37,525 - api - INFO - Summary for Interview 8: Mode=ai, RespID=159, RespName='New Respondent'
+2025-12-16 06:05:37,527 - api - INFO - Summary for Interview 9: Mode=ai, RespID=160, RespName='New Respondent'
+2025-12-16 06:05:37,530 - api - INFO - Summary for Interview 10: Mode=ai, RespID=161, RespName='New Respondent'
+2025-12-16 06:05:37,531 - api - INFO - Summary for Interview 11: Mode=ai, RespID=162, RespName='New Respondent'
+2025-12-16 06:05:37,535 - api - INFO - Summary for Interview 12: Mode=ai, RespID=163, RespName='New Respondent'
+2025-12-16 06:05:37,536 - api - INFO - Summary for Interview 13: Mode=ai, RespID=164, RespName='New Respondent'
+2025-12-16 06:17:11,031 - api - INFO - Loaded 10 questions
+2025-12-16 06:18:25,122 - api - INFO - Loaded 10 questions
+2025-12-16 06:18:26,797 - api - INFO - RealtimeExtractionService initialized
+2025-12-16 06:18:54,607 - api - INFO - User 0 connected
+2025-12-16 06:18:54,635 - api - INFO - User 0 disconnected
+2025-12-16 06:18:54,635 - api - INFO - User 1 connected
+2025-12-16 06:18:54,636 - api - INFO - Loaded 10 questions
+2025-12-16 06:18:54,636 - api - INFO - InterviewSession created: user=1, interview=1
+2025-12-16 06:18:55,086 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-16 06:18:55,086 - api - INFO - User 1 disconnected
+2025-12-16 06:18:55,596 - api - INFO - User 0 connected
+2025-12-16 06:18:55,604 - api - INFO - User 0 disconnected
+2025-12-16 06:18:55,604 - api - INFO - User 1 connected
+2025-12-16 06:18:55,605 - api - INFO - Loaded 10 questions
+2025-12-16 06:18:55,607 - api - INFO - InterviewSession created: user=1, interview=2
+2025-12-16 06:18:55,896 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-16 06:18:55,896 - api - INFO - User 1 disconnected
+2025-12-16 06:18:57,328 - api - INFO - Summary for Interview 1: Mode=ai, RespID=1, RespName='New Respondent'
+2025-12-16 06:18:57,333 - api - INFO - Summary for Interview 2: Mode=ai, RespID=2, RespName='New Respondent'
+2025-12-16 06:18:59,398 - api - INFO - Summary for Interview 1: Mode=ai, RespID=1, RespName='New Respondent'
+2025-12-16 06:18:59,402 - api - INFO - Summary for Interview 2: Mode=ai, RespID=2, RespName='New Respondent'
+2025-12-16 06:19:02,468 - api - INFO - Summary for Interview 2: Mode=ai, RespID=2, RespName='New Respondent'
+2025-12-16 06:20:06,705 - api - INFO - User 0 connected
+2025-12-16 06:20:06,717 - api - INFO - User 0 disconnected
+2025-12-16 06:20:06,717 - api - INFO - User 3 connected
+2025-12-16 06:20:06,720 - api - INFO - Loaded 10 questions
+2025-12-16 06:20:06,720 - api - INFO - InterviewSession created: user=3, interview=1
+2025-12-16 06:22:03,893 - api - INFO - Detected invalid WAV (likely raw PCM). Fixing header for C:\xampp\htdocs\smartcapi_pwa\smartcapi-backend\storage\interviews\1.wav
+2025-12-16 06:22:03,894 - api - INFO - Fixed WAV header successfully.
+2025-12-16 06:22:05,057 - api - INFO - Transcribing 26 segments for full context...
+2025-12-16 06:22:35,793 - api - INFO - Applying LLM Diarization Correction...
+2025-12-16 06:23:00,765 - api - INFO - Applying Transcription Normalization...
+2025-12-16 06:23:06,904 - api - INFO - Saved full transcript to C:\xampp\htdocs\smartcapi_pwa\smartcapi-backend\storage\interviews\processed\transcript.txt
+2025-12-16 06:23:06,916 - api - INFO - Batch Transcript for extraction (len=837)
+2025-12-16 06:23:09,114 - api - INFO - Batch Extracted Info: {'nama': None, 'alamat': None, 'tempat_lahir': None, 'tanggal_lahir': None, 'usia': '62', 'pendidikan': None, 'pekerjaan': None, 'hobi': [], 'nomor_telepon': '082120887138', 'alamat_email': None}
+2025-12-16 06:23:34,557 - api - INFO - Transcribing 26 segments for full context...
+2025-12-16 06:24:09,398 - api - INFO - Applying LLM Diarization Correction...
+2025-12-16 06:24:29,847 - api - INFO - Applying Transcription Normalization...
+2025-12-16 06:24:35,605 - api - INFO - Saved full transcript to C:\xampp\htdocs\smartcapi_pwa\smartcapi-backend\storage\interviews\processed\transcript.txt
+2025-12-16 06:24:35,625 - api - INFO - Batch Transcript for extraction (len=763)
+2025-12-16 06:24:36,975 - api - INFO - Batch Extracted Info: {'nama': None, 'alamat': None, 'tempat_lahir': None, 'tanggal_lahir': None, 'usia': '62', 'pendidikan': None, 'pekerjaan': None, 'hobi': [], 'nomor_telepon': '082120887138', 'alamat_email': None}
+2025-12-16 06:31:59,474 - api - ERROR - Redis subscription error for interview 1: Error while reading from localhost:6379 : (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+2025-12-16 06:32:02,610 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-16 06:32:02,615 - api - INFO - User 3 disconnected
+2025-12-16 06:32:09,939 - api - INFO - Loaded 10 questions
+2025-12-16 06:32:19,854 - api - INFO - Loaded 10 questions
+2025-12-16 06:32:23,891 - api - INFO - RealtimeExtractionService initialized
+2025-12-16 06:33:25,025 - api - INFO - Summary for Interview 1: Mode=ai, RespID=3, RespName='New Respondent'
+2025-12-16 06:33:36,727 - api - INFO - User 0 connected
+2025-12-16 06:33:36,745 - api - INFO - User 0 disconnected
+2025-12-16 06:33:36,747 - api - INFO - User 3 connected
+2025-12-16 06:33:36,753 - api - INFO - Loaded 10 questions
+2025-12-16 06:33:36,755 - api - INFO - InterviewSession created: user=3, interview=1
+2025-12-16 06:33:43,727 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-16 06:33:43,729 - api - INFO - User 3 disconnected
+2025-12-16 06:33:45,664 - api - INFO - User 0 connected
+2025-12-16 06:33:45,703 - api - INFO - User 0 disconnected
+2025-12-16 06:33:45,704 - api - INFO - User 3 connected
+2025-12-16 06:33:45,717 - api - INFO - Loaded 10 questions
+2025-12-16 06:33:45,717 - api - INFO - InterviewSession created: user=3, interview=2
+2025-12-16 06:35:25,112 - api - INFO - Detected invalid WAV (likely raw PCM). Fixing header for C:\xampp\htdocs\smartcapi_pwa\smartcapi-backend\storage\interviews\2.wav
+2025-12-16 06:35:25,196 - api - INFO - Fixed WAV header successfully.
+2025-12-16 06:35:32,268 - api - INFO - Transcribing 0 segments for full context...
+2025-12-16 06:35:32,275 - api - INFO - Applying LLM Diarization Correction...
+2025-12-16 06:35:32,287 - api - WARNING - Diarization correction returned empty, using original segments.
+2025-12-16 06:35:32,289 - api - INFO - Applying Transcription Normalization...
+2025-12-16 06:35:32,294 - api - INFO - Saved full transcript to C:\xampp\htdocs\smartcapi_pwa\smartcapi-backend\storage\interviews\processed\transcript.txt
+2025-12-16 06:35:32,335 - api - INFO - Batch Transcript for extraction (len=0)
+2025-12-16 06:35:32,345 - api - INFO - Batch Extracted Info: {'nama': None, 'alamat': None, 'tempat_lahir': None, 'tanggal_lahir': None, 'usia': None, 'pendidikan': None, 'pekerjaan': None, 'hobi': [], 'nomor_telepon': None, 'alamat_email': None}
+2025-12-16 06:35:48,116 - api - INFO - Set current question for interview 2 to 1
+2025-12-16 06:36:10,233 - api - INFO - Transcribing 38 segments for full context...
+2025-12-16 06:36:59,091 - api - INFO - Applying LLM Diarization Correction...
+2025-12-16 06:37:38,849 - api - WARNING - Diarization correction returned empty, using original segments.
+2025-12-16 06:37:38,849 - api - INFO - Applying Transcription Normalization...
+2025-12-16 06:37:43,142 - api - INFO - Saved full transcript to C:\xampp\htdocs\smartcapi_pwa\smartcapi-backend\storage\interviews\processed\transcript.txt
+2025-12-16 06:37:43,149 - api - INFO - Batch Transcript for extraction (len=840)
+2025-12-16 06:37:45,979 - api - INFO - Batch Extracted Info: {'nama': 'Berita Wahyu', 'alamat': 'Pemirsa Heran Indah Bandung', 'tempat_lahir': 'Alemang', 'tanggal_lahir': '30/08/1965', 'usia': '62', 'pendidikan': 'S1', 'pekerjaan': 'mudah', 'hobi': ['memasak'], 'nomor_telepon': '0812345678', 'alamat_email': '-'}
+2025-12-16 06:40:56,122 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-16 06:40:56,125 - api - INFO - User 3 disconnected
+2025-12-16 17:39:07,738 - api - INFO - Loaded 10 questions
+2025-12-16 17:39:27,749 - api - INFO - RealtimeExtractionService initialized
+2025-12-16 17:41:27,555 - api - INFO - Summary for Interview 1: Mode=ai, RespID=4, RespName='New Respondent'
+2025-12-16 17:41:27,572 - api - INFO - Summary for Interview 2: Mode=ai, RespID=5, RespName='New Respondent'
+2025-12-16 17:49:31,622 - api - INFO - Loaded 10 questions
+2025-12-16 17:49:52,093 - api - INFO - Loaded 10 questions
+2025-12-16 17:49:56,684 - api - INFO - RealtimeExtractionService initialized
+2025-12-16 17:50:21,172 - api - INFO - Summary for Interview 1: Mode=ai, RespID=4, RespName='New Respondent'
+2025-12-16 17:50:21,184 - api - INFO - Summary for Interview 2: Mode=ai, RespID=5, RespName='New Respondent'
+2025-12-16 17:54:03,760 - api - INFO - Summary for Interview 2: Mode=ai, RespID=5, RespName='New Respondent'
+2025-12-16 17:54:23,318 - api - INFO - Summary for Interview 2: Mode=ai, RespID=5, RespName='New Respondent'
+2025-12-16 17:54:36,536 - api - INFO - Summary for Interview 2: Mode=ai, RespID=5, RespName='New Respondent'
+2025-12-16 17:54:41,892 - api - INFO - Summary for Interview 2: Mode=ai, RespID=5, RespName='New Respondent'
+2025-12-17 16:01:07,898 - api - INFO - Loaded 10 questions
+2025-12-17 16:01:30,879 - api - INFO - RealtimeExtractionService initialized
+2025-12-17 16:02:00,452 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-17 16:02:01,170 - api - INFO - User 0 connected
+2025-12-17 16:02:01,186 - api - INFO - User 0 disconnected
+2025-12-17 16:02:01,186 - api - INFO - User 3 connected
+2025-12-17 16:02:01,194 - api - INFO - Loaded 10 questions
+2025-12-17 16:02:01,194 - api - INFO - InterviewSession created: user=3, interview=1
+2025-12-17 16:02:10,225 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-17 16:02:10,225 - api - INFO - User 3 disconnected
+2025-12-18 07:13:53,023 - api - INFO - Loaded 10 questions
+2025-12-18 07:14:11,673 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 07:35:09,989 - api - INFO - Loaded 10 questions
+2025-12-18 07:35:40,412 - api - INFO - Loaded 10 questions
+2025-12-18 07:35:45,767 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 07:48:12,092 - api - INFO - Loaded 10 questions
+2025-12-18 07:48:51,121 - api - INFO - Loaded 10 questions
+2025-12-18 07:48:54,990 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 07:54:46,372 - api - INFO - Loaded 10 questions
+2025-12-18 07:54:49,968 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 08:01:05,890 - api - INFO - Loaded 10 questions
+2025-12-18 08:01:09,062 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 08:08:50,729 - api - INFO - Loaded 10 questions
+2025-12-18 08:08:54,583 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 08:25:43,175 - api - INFO - Loaded 10 questions
+2025-12-18 08:25:48,167 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 08:29:10,475 - api - INFO - Summary for Interview 1: Mode=ai, RespID=6, RespName='New Respondent'
+2025-12-18 08:29:18,703 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 08:29:18,815 - api - INFO - User 0 connected
+2025-12-18 08:29:18,835 - api - INFO - User 0 disconnected
+2025-12-18 08:29:18,835 - api - INFO - User 3 connected
+2025-12-18 08:29:18,839 - api - INFO - Loaded 10 questions
+2025-12-18 08:29:18,839 - api - INFO - InterviewSession created: user=3, interview=2
+2025-12-18 08:31:27,804 - api - INFO - Transcribing 38 segments for full context...
+2025-12-18 08:32:16,175 - api - INFO - Applying LLM Diarization Correction...
+2025-12-18 08:32:52,838 - api - WARNING - Diarization correction returned empty, using original segments.
+2025-12-18 08:32:52,839 - api - INFO - Applying Transcription Normalization...
+2025-12-18 08:33:01,465 - api - INFO - Saved full transcript to C:\xampp\htdocs\smartcapi_pwa\smartcapi-backend\storage\interviews\processed\transcript.txt
+2025-12-18 08:33:01,482 - api - INFO - Batch Transcript for extraction (len=857)
+2025-12-18 08:33:04,282 - api - INFO - Batch Extracted Info: {'nama': 'Kopet', 'tempat_lahir': 'Palembang', 'tanggal_lahir': '18/06/1963', 'usia': '62', 'pendidikan': None, 'alamat': None, 'pekerjaan': None, 'hobi': [], 'nomor_telepon': None, 'alamat_email': None}
+2025-12-18 08:33:13,761 - api - INFO - Update Interview 2: update_data keys = dict_keys(['mode', 'duration', 'status'])
+2025-12-18 08:33:13,762 - api - INFO - Updating Respondent Data: {'full_name': 'Kopet', 'birth_year': 1963, 'education': None, 'address': None}
+2025-12-18 08:33:13,765 - api - INFO - Updated existing Respondent 7 details
+2025-12-18 08:33:13,781 - api - INFO - Updated Respondent Name to 'Kopet' from extracted_data 'nama' field
+2025-12-18 08:33:13,872 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 08:33:13,872 - api - INFO - User 3 disconnected
+2025-12-18 08:33:13,949 - api - INFO - Summary for Interview 1: Mode=ai, RespID=6, RespName='New Respondent'
+2025-12-18 08:33:13,953 - api - INFO - Summary for Interview 2: Mode=ai, RespID=7, RespName='Kopet'
+2025-12-18 08:33:15,087 - api - INFO - Summary for Interview 1: Mode=ai, RespID=6, RespName='New Respondent'
+2025-12-18 08:33:15,088 - api - INFO - Summary for Interview 2: Mode=ai, RespID=7, RespName='Kopet'
+2025-12-18 08:33:17,281 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 08:33:17,395 - api - INFO - User 0 connected
+2025-12-18 08:33:17,403 - api - INFO - User 0 disconnected
+2025-12-18 08:33:17,403 - api - INFO - User 3 connected
+2025-12-18 08:33:17,405 - api - INFO - Loaded 10 questions
+2025-12-18 08:33:17,405 - api - INFO - InterviewSession created: user=3, interview=3
+2025-12-18 08:33:34,707 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 08:33:34,707 - api - INFO - User 3 disconnected
+2025-12-18 08:33:34,765 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 08:33:34,846 - api - INFO - User 0 connected
+2025-12-18 08:33:34,859 - api - INFO - User 0 disconnected
+2025-12-18 08:33:34,859 - api - INFO - User 3 connected
+2025-12-18 08:33:34,862 - api - INFO - Loaded 10 questions
+2025-12-18 08:33:34,863 - api - INFO - InterviewSession created: user=3, interview=4
+2025-12-18 08:33:37,106 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 08:33:37,106 - api - INFO - User 3 disconnected
+2025-12-18 08:33:38,912 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 08:33:39,004 - api - INFO - User 0 connected
+2025-12-18 08:33:39,015 - api - INFO - User 0 disconnected
+2025-12-18 08:33:39,015 - api - INFO - User 3 connected
+2025-12-18 08:33:39,016 - api - INFO - Loaded 10 questions
+2025-12-18 08:33:39,016 - api - INFO - InterviewSession created: user=3, interview=5
+2025-12-18 08:44:58,133 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 08:44:58,134 - api - INFO - User 3 disconnected
+2025-12-18 08:49:41,881 - api - INFO - Loaded 10 questions
+2025-12-18 08:58:39,092 - api - INFO - Loaded 10 questions
+2025-12-18 08:58:43,311 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 08:59:01,507 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 08:59:02,411 - api - INFO - User 0 connected
+2025-12-18 08:59:02,432 - api - INFO - User 0 disconnected
+2025-12-18 08:59:02,432 - api - INFO - User 3 connected
+2025-12-18 08:59:02,436 - api - INFO - Loaded 10 questions
+2025-12-18 08:59:02,437 - api - INFO - InterviewSession created: user=3, interview=6
+2025-12-18 08:59:11,021 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 08:59:11,021 - api - INFO - User 3 disconnected
+2025-12-18 08:59:11,057 - api - INFO - Summary for Interview 1: Mode=ai, RespID=6, RespName='New Respondent'
+2025-12-18 08:59:11,058 - api - INFO - Summary for Interview 2: Mode=ai, RespID=7, RespName='Kopet'
+2025-12-18 08:59:11,071 - api - INFO - Summary for Interview 3: Mode=ai, RespID=8, RespName='New Respondent'
+2025-12-18 08:59:11,074 - api - INFO - Summary for Interview 4: Mode=ai, RespID=9, RespName='New Respondent'
+2025-12-18 08:59:11,079 - api - INFO - Summary for Interview 5: Mode=ai, RespID=10, RespName='New Respondent'
+2025-12-18 08:59:11,082 - api - INFO - Summary for Interview 6: Mode=ai, RespID=11, RespName='New Respondent'
+2025-12-18 08:59:13,095 - api - INFO - Summary for Interview 1: Mode=ai, RespID=6, RespName='New Respondent'
+2025-12-18 08:59:13,098 - api - INFO - Summary for Interview 2: Mode=ai, RespID=7, RespName='Kopet'
+2025-12-18 08:59:13,114 - api - INFO - Summary for Interview 3: Mode=ai, RespID=8, RespName='New Respondent'
+2025-12-18 08:59:13,123 - api - INFO - Summary for Interview 4: Mode=ai, RespID=9, RespName='New Respondent'
+2025-12-18 08:59:13,123 - api - INFO - Summary for Interview 5: Mode=ai, RespID=10, RespName='New Respondent'
+2025-12-18 08:59:13,123 - api - INFO - Summary for Interview 6: Mode=ai, RespID=11, RespName='New Respondent'
+2025-12-18 08:59:16,330 - api - INFO - Summary for Interview 2: Mode=ai, RespID=7, RespName='Kopet'
+2025-12-18 08:59:16,344 - api - INFO - Summary for Interview 3: Mode=ai, RespID=8, RespName='New Respondent'
+2025-12-18 08:59:16,353 - api - INFO - Summary for Interview 4: Mode=ai, RespID=9, RespName='New Respondent'
+2025-12-18 08:59:16,357 - api - INFO - Summary for Interview 5: Mode=ai, RespID=10, RespName='New Respondent'
+2025-12-18 08:59:16,362 - api - INFO - Summary for Interview 6: Mode=ai, RespID=11, RespName='New Respondent'
+2025-12-18 08:59:16,745 - api - INFO - Summary for Interview 2: Mode=ai, RespID=7, RespName='Kopet'
+2025-12-18 08:59:16,759 - api - INFO - Summary for Interview 3: Mode=ai, RespID=8, RespName='New Respondent'
+2025-12-18 08:59:16,768 - api - INFO - Summary for Interview 4: Mode=ai, RespID=9, RespName='New Respondent'
+2025-12-18 08:59:16,770 - api - INFO - Summary for Interview 5: Mode=ai, RespID=10, RespName='New Respondent'
+2025-12-18 08:59:16,770 - api - INFO - Summary for Interview 6: Mode=ai, RespID=11, RespName='New Respondent'
+2025-12-18 08:59:19,899 - api - INFO - Summary for Interview 2: Mode=ai, RespID=7, RespName='Kopet'
+2025-12-18 08:59:19,912 - api - INFO - Summary for Interview 4: Mode=ai, RespID=9, RespName='New Respondent'
+2025-12-18 08:59:19,915 - api - INFO - Summary for Interview 5: Mode=ai, RespID=10, RespName='New Respondent'
+2025-12-18 08:59:19,920 - api - INFO - Summary for Interview 6: Mode=ai, RespID=11, RespName='New Respondent'
+2025-12-18 08:59:21,104 - api - INFO - Summary for Interview 2: Mode=ai, RespID=7, RespName='Kopet'
+2025-12-18 08:59:21,121 - api - INFO - Summary for Interview 4: Mode=ai, RespID=9, RespName='New Respondent'
+2025-12-18 08:59:21,126 - api - INFO - Summary for Interview 5: Mode=ai, RespID=10, RespName='New Respondent'
+2025-12-18 08:59:21,130 - api - INFO - Summary for Interview 6: Mode=ai, RespID=11, RespName='New Respondent'
+2025-12-18 08:59:22,924 - api - INFO - Summary for Interview 2: Mode=ai, RespID=7, RespName='Kopet'
+2025-12-18 08:59:22,939 - api - INFO - Summary for Interview 5: Mode=ai, RespID=10, RespName='New Respondent'
+2025-12-18 08:59:22,944 - api - INFO - Summary for Interview 6: Mode=ai, RespID=11, RespName='New Respondent'
+2025-12-18 08:59:23,565 - api - INFO - Summary for Interview 2: Mode=ai, RespID=7, RespName='Kopet'
+2025-12-18 08:59:23,571 - api - INFO - Summary for Interview 5: Mode=ai, RespID=10, RespName='New Respondent'
+2025-12-18 08:59:23,572 - api - INFO - Summary for Interview 6: Mode=ai, RespID=11, RespName='New Respondent'
+2025-12-18 08:59:26,522 - api - INFO - Summary for Interview 2: Mode=ai, RespID=7, RespName='Kopet'
+2025-12-18 08:59:26,529 - api - INFO - Summary for Interview 5: Mode=ai, RespID=10, RespName='New Respondent'
+2025-12-18 08:59:27,057 - api - INFO - Summary for Interview 2: Mode=ai, RespID=7, RespName='Kopet'
+2025-12-18 08:59:27,074 - api - INFO - Summary for Interview 5: Mode=ai, RespID=10, RespName='New Respondent'
+2025-12-18 08:59:28,845 - api - INFO - Summary for Interview 5: Mode=ai, RespID=10, RespName='New Respondent'
+2025-12-18 08:59:29,844 - api - INFO - Summary for Interview 5: Mode=ai, RespID=10, RespName='New Respondent'
+2025-12-18 08:59:40,903 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 08:59:41,006 - api - INFO - User 0 connected
+2025-12-18 08:59:41,013 - api - INFO - User 0 disconnected
+2025-12-18 08:59:41,014 - api - INFO - User 3 connected
+2025-12-18 08:59:41,016 - api - INFO - Loaded 10 questions
+2025-12-18 08:59:41,016 - api - INFO - InterviewSession created: user=3, interview=1
+2025-12-18 09:01:47,711 - api - INFO - Transcribing 26 segments for full context...
+2025-12-18 09:02:16,903 - api - INFO - Applying LLM Diarization Correction...
+2025-12-18 09:02:37,196 - api - INFO - Applying Transcription Normalization...
+2025-12-18 09:02:42,725 - api - INFO - Saved full transcript to C:\xampp\htdocs\smartcapi_pwa\smartcapi-backend\storage\interviews\processed\transcript.txt
+2025-12-18 09:02:42,740 - api - INFO - Batch Transcript for extraction (len=788)
+2025-12-18 09:02:45,672 - api - INFO - Batch Extracted Info: {'nama': 'Kopet Pertiuli', 'tempat_lahir': 'Palembang', 'tanggal_lahir': '18/06/1963', 'usia': '62', 'pendidikan': None, 'alamat': None, 'pekerjaan': None, 'hobi': [], 'nomor_telepon': None, 'alamat_email': None}
+2025-12-18 09:05:59,371 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 09:05:59,372 - api - INFO - User 3 disconnected
+2025-12-18 09:06:00,347 - api - INFO - Summary for Interview 1: Mode=ai, RespID=12, RespName='New Respondent'
+2025-12-18 09:15:18,748 - api - INFO - Loaded 10 questions
+2025-12-18 09:15:23,355 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 09:15:52,586 - api - INFO - Summary for Interview 1: Mode=ai, RespID=12, RespName='New Respondent'
+2025-12-18 09:15:54,311 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 09:15:54,526 - api - INFO - User 0 connected
+2025-12-18 09:15:54,761 - api - INFO - User 0 disconnected
+2025-12-18 09:15:54,762 - api - INFO - User 3 connected
+2025-12-18 09:15:54,763 - api - INFO - Loaded 10 questions
+2025-12-18 09:15:54,763 - api - INFO - InterviewSession created: user=3, interview=2
+2025-12-18 09:15:54,840 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 09:15:54,841 - api - INFO - User 3 disconnected
+2025-12-18 09:15:55,548 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 09:15:55,659 - api - INFO - User 0 connected
+2025-12-18 09:15:55,682 - api - INFO - User 0 disconnected
+2025-12-18 09:15:55,683 - api - INFO - User 3 connected
+2025-12-18 09:15:55,684 - api - INFO - Loaded 10 questions
+2025-12-18 09:15:55,685 - api - INFO - InterviewSession created: user=3, interview=3
+2025-12-18 09:15:56,721 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 09:15:56,721 - api - INFO - User 3 disconnected
+2025-12-18 09:15:56,737 - api - INFO - Summary for Interview 1: Mode=ai, RespID=12, RespName='New Respondent'
+2025-12-18 09:15:56,746 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-18 09:15:56,748 - api - INFO - Summary for Interview 3: Mode=ai, RespID=14, RespName='New Respondent'
+2025-12-18 09:16:00,103 - api - INFO - Summary for Interview 1: Mode=ai, RespID=12, RespName='New Respondent'
+2025-12-18 09:16:00,107 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-18 09:16:00,108 - api - INFO - Summary for Interview 3: Mode=ai, RespID=14, RespName='New Respondent'
+2025-12-18 09:16:02,176 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 09:16:02,556 - api - INFO - User 0 connected
+2025-12-18 09:16:02,582 - api - INFO - User 0 disconnected
+2025-12-18 09:16:02,582 - api - INFO - User 3 connected
+2025-12-18 09:16:02,584 - api - INFO - Loaded 10 questions
+2025-12-18 09:16:02,584 - api - INFO - InterviewSession created: user=3, interview=4
+2025-12-18 09:18:12,082 - api - INFO - Transcribing 19 segments for full context...
+2025-12-18 09:18:38,953 - api - INFO - Applying LLM Diarization Correction...
+2025-12-18 09:18:59,592 - api - INFO - Applying Transcription Normalization...
+2025-12-18 09:19:02,956 - api - INFO - Saved full transcript to C:\xampp\htdocs\smartcapi_pwa\smartcapi-backend\storage\interviews\processed\transcript.txt
+2025-12-18 09:19:02,963 - api - INFO - Batch Transcript for extraction (len=837)
+2025-12-18 09:19:04,951 - api - INFO - Batch Extracted Info: {'nama': 'Kopet Pertiuli', 'tempat_lahir': 'Palembang', 'tanggal_lahir': '18/06/1963', 'usia': '62', 'pendidikan': None, 'alamat': None, 'pekerjaan': None, 'hobi': [], 'nomor_telepon': None, 'alamat_email': None}
+2025-12-18 09:46:27,744 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 09:46:27,745 - api - INFO - User 3 disconnected
+2025-12-18 13:23:38,395 - api - INFO - Loaded 10 questions
+2025-12-18 13:23:43,041 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 13:37:45,061 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 13:37:45,291 - api - INFO - User 0 connected
+2025-12-18 13:37:45,360 - api - INFO - User 0 disconnected
+2025-12-18 13:37:45,360 - api - INFO - User 4 connected
+2025-12-18 13:37:45,369 - api - INFO - Loaded 10 questions
+2025-12-18 13:37:45,369 - api - INFO - InterviewSession created: user=4, interview=5
+2025-12-18 13:39:47,761 - api - INFO - Transcribing 3 segments for full context...
+2025-12-18 13:39:54,148 - api - INFO - Applying LLM Diarization Correction...
+2025-12-18 13:39:56,980 - api - INFO - Applying Transcription Normalization...
+2025-12-18 13:40:02,643 - api - INFO - Saved full transcript to D:\smartcapi_pwa\smartcapi-backend\storage\interviews\processed\transcript.txt
+2025-12-18 13:40:02,673 - api - INFO - Batch Transcript for extraction (len=80)
+2025-12-18 13:40:05,153 - api - INFO - Batch Extracted Info: {'nama': 'Kopet Pertiuli', 'tempat_lahir': 'Palembang', 'tanggal_lahir': '18/06/1963', 'usia': '62', 'pendidikan': None, 'alamat': None, 'pekerjaan': None, 'hobi': [], 'nomor_telepon': None, 'alamat_email': None}
+2025-12-18 13:41:34,834 - api - INFO - Update Interview 5: update_data keys = dict_keys(['mode', 'duration', 'status'])
+2025-12-18 13:41:34,837 - api - INFO - Updating Respondent Data: {'full_name': 'Kopet Pertiuli', 'birth_year': 1963, 'education': None, 'address': None}
+2025-12-18 13:41:34,839 - api - INFO - Updated existing Respondent 16 details
+2025-12-18 13:41:34,866 - api - INFO - Updated Respondent Name to 'Kopet Pertiuli' from extracted_data 'nama' field
+2025-12-18 13:41:35,017 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 13:41:35,018 - api - INFO - User 4 disconnected
+2025-12-18 13:41:35,092 - api - INFO - Summary for Interview 5: Mode=ai, RespID=16, RespName='Kopet Pertiuli'
+2025-12-18 13:41:38,864 - api - INFO - Summary for Interview 5: Mode=ai, RespID=16, RespName='Kopet Pertiuli'
+2025-12-18 13:42:48,560 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 13:42:48,884 - api - INFO - User 0 connected
+2025-12-18 13:42:48,960 - api - INFO - User 0 disconnected
+2025-12-18 13:42:48,961 - api - INFO - User 4 connected
+2025-12-18 13:42:48,964 - api - INFO - Loaded 10 questions
+2025-12-18 13:42:48,964 - api - INFO - InterviewSession created: user=4, interview=6
+2025-12-18 13:44:14,649 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 13:44:14,650 - api - INFO - User 4 disconnected
+2025-12-18 13:44:14,655 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 13:44:25,000 - api - INFO - User 0 connected
+2025-12-18 13:44:33,655 - api - INFO - WebSocket disconnected for user None
+2025-12-18 13:44:34,003 - api - INFO - Summary for Interview 5: Mode=ai, RespID=16, RespName='Kopet Pertiuli'
+2025-12-18 13:44:34,022 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-18 13:44:34,027 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-18 13:45:58,463 - api - INFO - Summary for Interview 5: Mode=ai, RespID=16, RespName='Kopet Pertiuli'
+2025-12-18 13:45:58,484 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-18 13:45:58,492 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-18 13:46:52,304 - api - INFO - Summary for Interview 1: Mode=ai, RespID=12, RespName='New Respondent'
+2025-12-18 13:46:52,330 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-18 13:46:52,333 - api - INFO - Summary for Interview 3: Mode=ai, RespID=14, RespName='New Respondent'
+2025-12-18 13:46:52,334 - api - INFO - Summary for Interview 4: Mode=ai, RespID=15, RespName='New Respondent'
+2025-12-18 13:46:52,340 - api - INFO - Summary for Interview 5: Mode=ai, RespID=16, RespName='Kopet Pertiuli'
+2025-12-18 13:46:52,350 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-18 13:46:52,360 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-18 13:47:07,486 - api - INFO - Summary for Interview 1: Mode=ai, RespID=12, RespName='New Respondent'
+2025-12-18 13:47:07,497 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-18 13:47:07,503 - api - INFO - Summary for Interview 3: Mode=ai, RespID=14, RespName='New Respondent'
+2025-12-18 13:47:07,505 - api - INFO - Summary for Interview 4: Mode=ai, RespID=15, RespName='New Respondent'
+2025-12-18 13:47:07,512 - api - INFO - Summary for Interview 5: Mode=ai, RespID=16, RespName='Kopet Pertiuli'
+2025-12-18 13:47:07,528 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-18 13:47:07,536 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-18 13:48:38,754 - api - INFO - Summary for Interview 1: Mode=ai, RespID=12, RespName='New Respondent'
+2025-12-18 13:48:38,761 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-18 13:48:38,765 - api - INFO - Summary for Interview 3: Mode=ai, RespID=14, RespName='New Respondent'
+2025-12-18 13:48:38,769 - api - INFO - Summary for Interview 4: Mode=ai, RespID=15, RespName='New Respondent'
+2025-12-18 13:48:38,772 - api - INFO - Summary for Interview 5: Mode=ai, RespID=16, RespName='Kopet Pertiuli'
+2025-12-18 13:48:38,788 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-18 13:48:38,791 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-18 13:51:01,709 - api - INFO - Summary for Interview 5: Mode=ai, RespID=16, RespName='Kopet Pertiuli'
+2025-12-18 13:51:01,750 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-18 13:51:01,755 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-18 13:53:19,621 - api - INFO - Summary for Interview 5: Mode=ai, RespID=16, RespName='Kopet Pertiuli'
+2025-12-18 13:53:19,651 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-18 13:53:19,658 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-18 13:53:23,441 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 13:53:23,640 - api - INFO - User 0 connected
+2025-12-18 13:53:23,656 - api - INFO - User 0 disconnected
+2025-12-18 13:53:23,656 - api - INFO - User 4 connected
+2025-12-18 13:53:23,663 - api - INFO - Loaded 10 questions
+2025-12-18 13:53:23,665 - api - INFO - InterviewSession created: user=4, interview=8
+2025-12-18 13:53:32,180 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 13:53:32,180 - api - INFO - User 4 disconnected
+2025-12-18 13:53:32,352 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 13:53:32,577 - api - INFO - User 0 connected
+2025-12-18 13:53:32,847 - api - INFO - User 0 disconnected
+2025-12-18 13:53:32,847 - api - INFO - User 4 connected
+2025-12-18 13:53:32,851 - api - INFO - Loaded 10 questions
+2025-12-18 13:53:32,851 - api - INFO - InterviewSession created: user=4, interview=9
+2025-12-18 13:53:37,590 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 13:53:37,592 - api - INFO - User 4 disconnected
+2025-12-18 13:53:41,100 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 13:53:41,683 - api - INFO - User 0 connected
+2025-12-18 13:53:41,700 - api - INFO - User 0 disconnected
+2025-12-18 13:53:41,700 - api - INFO - User 1 connected
+2025-12-18 13:53:41,705 - api - INFO - Loaded 10 questions
+2025-12-18 13:53:41,706 - api - INFO - InterviewSession created: user=1, interview=10
+2025-12-18 13:55:01,942 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 13:55:01,942 - api - INFO - User 1 disconnected
+2025-12-18 14:16:03,094 - api - INFO - Summary for Interview 1: Mode=ai, RespID=12, RespName='New Respondent'
+2025-12-18 14:16:03,126 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-18 14:16:03,132 - api - INFO - Summary for Interview 3: Mode=ai, RespID=14, RespName='New Respondent'
+2025-12-18 14:16:03,134 - api - INFO - Summary for Interview 4: Mode=ai, RespID=15, RespName='New Respondent'
+2025-12-18 14:16:03,143 - api - INFO - Summary for Interview 5: Mode=ai, RespID=16, RespName='Kopet Pertiuli'
+2025-12-18 14:16:03,165 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-18 14:16:03,171 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-18 14:16:03,177 - api - INFO - Summary for Interview 8: Mode=ai, RespID=19, RespName='New Respondent'
+2025-12-18 14:16:03,182 - api - INFO - Summary for Interview 9: Mode=ai, RespID=20, RespName='New Respondent'
+2025-12-18 14:16:03,187 - api - INFO - Summary for Interview 10: Mode=ai, RespID=21, RespName='New Respondent'
+2025-12-18 14:16:04,706 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 14:16:04,898 - api - INFO - User 0 connected
+2025-12-18 14:16:05,259 - api - INFO - User 0 disconnected
+2025-12-18 14:16:05,259 - api - INFO - User 1 connected
+2025-12-18 14:16:05,268 - api - INFO - Loaded 10 questions
+2025-12-18 14:16:05,270 - api - INFO - InterviewSession created: user=1, interview=11
+2025-12-18 14:16:44,156 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 14:16:44,158 - api - INFO - User 1 disconnected
+2025-12-18 14:52:29,988 - api - INFO - Loaded 10 questions
+2025-12-18 14:52:32,122 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 15:07:41,941 - api - INFO - Loaded 10 questions
+2025-12-18 15:08:12,026 - api - INFO - Loaded 10 questions
+2025-12-18 15:08:33,563 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 15:21:02,809 - api - INFO - Loaded 10 questions
+2025-12-18 15:21:19,151 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 15:34:38,065 - api - INFO - Loaded 10 questions
+2025-12-18 15:34:43,442 - api - INFO - Loaded 10 questions
+2025-12-18 15:34:46,255 - api - INFO - Loaded 10 questions
+2025-12-18 15:34:48,661 - api - INFO - Loaded 10 questions
+2025-12-18 15:34:53,249 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 15:34:54,793 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 15:34:55,407 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 15:37:23,948 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 15:37:24,025 - api - INFO - User 0 connected
+2025-12-18 15:37:24,040 - api - INFO - User 0 disconnected
+2025-12-18 15:37:24,040 - api - INFO - User 7 connected
+2025-12-18 15:37:24,040 - api - INFO - Loaded 10 questions
+2025-12-18 15:37:24,040 - api - INFO - InterviewSession created: user=7, interview=12
+2025-12-18 15:37:35,430 - api - INFO - Transcribing 6 segments for full context...
+2025-12-18 15:37:49,902 - api - INFO - Applying LLM Diarization Correction...
+2025-12-18 15:37:59,939 - api - INFO - Applying Transcription Normalization...
+2025-12-18 15:38:07,380 - api - INFO - Saved full transcript to D:\smartcapi_pwa\smartcapi-backend\storage\interviews\processed\transcript.txt
+2025-12-18 15:38:07,441 - api - INFO - Batch Transcript for extraction (len=687)
+2025-12-18 15:38:10,439 - api - INFO - Batch Extracted Info: {'nama': 'Kopet', 'tempat_lahir': 'Palembang', 'tanggal_lahir': '18/06/1963', 'usia': '62', 'pendidikan': None, 'alamat': None, 'pekerjaan': None, 'hobi': [], 'nomor_telepon': None, 'alamat_email': None}
+2025-12-18 15:38:49,853 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 15:38:49,854 - api - INFO - User 7 disconnected
+2025-12-18 15:44:29,508 - api - INFO - Loaded 10 questions
+2025-12-18 15:44:30,402 - api - INFO - Loaded 10 questions
+2025-12-18 15:44:52,541 - api - INFO - Loaded 10 questions
+2025-12-18 15:44:57,763 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 15:46:45,819 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 15:46:45,890 - api - INFO - User 0 connected
+2025-12-18 15:46:45,917 - api - INFO - User 0 disconnected
+2025-12-18 15:46:45,918 - api - INFO - User 5 connected
+2025-12-18 15:46:45,919 - api - INFO - Loaded 10 questions
+2025-12-18 15:46:45,921 - api - INFO - InterviewSession created: user=5, interview=13
+2025-12-18 15:47:25,063 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 15:47:25,063 - api - INFO - User 5 disconnected
+2025-12-18 15:49:02,206 - api - INFO - Detected invalid WAV (likely raw PCM). Fixing header for D:\smartcapi_pwa\smartcapi-backend\storage\interviews\13.wav
+2025-12-18 15:49:02,213 - api - INFO - Fixed WAV header successfully.
+2025-12-18 15:49:03,800 - api - INFO - Transcribing 28 segments for full context...
+2025-12-18 15:50:15,417 - api - INFO - Applying LLM Diarization Correction...
+2025-12-18 15:50:25,410 - api - INFO - Applying Transcription Normalization...
+2025-12-18 15:50:28,522 - api - INFO - Saved full transcript to D:\smartcapi_pwa\smartcapi-backend\storage\interviews\processed\transcript.txt
+2025-12-18 15:50:28,530 - api - INFO - Batch Transcript for extraction (len=62)
+2025-12-18 15:50:30,650 - api - INFO - Batch Extracted Info: {'nama': 'Kopet Pertiuli', 'tempat_lahir': 'Palembang', 'tanggal_lahir': '18/06/1963', 'usia': '62', 'pendidikan': None, 'alamat': None, 'pekerjaan': None, 'hobi': [], 'nomor_telepon': None, 'alamat_email': None}
+2025-12-18 15:50:53,961 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-18 15:53:19,750 - api - INFO - Summary for Interview 1: Mode=ai, RespID=12, RespName='New Respondent'
+2025-12-18 15:53:19,758 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-18 15:53:19,761 - api - INFO - Summary for Interview 3: Mode=ai, RespID=14, RespName='New Respondent'
+2025-12-18 15:53:19,763 - api - INFO - Summary for Interview 4: Mode=ai, RespID=15, RespName='New Respondent'
+2025-12-18 15:53:19,769 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-18 15:53:19,772 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-18 15:53:19,776 - api - INFO - Summary for Interview 8: Mode=ai, RespID=19, RespName='New Respondent'
+2025-12-18 15:53:19,777 - api - INFO - Summary for Interview 9: Mode=ai, RespID=20, RespName='New Respondent'
+2025-12-18 15:53:19,780 - api - INFO - Summary for Interview 10: Mode=ai, RespID=21, RespName='New Respondent'
+2025-12-18 15:53:19,783 - api - INFO - Summary for Interview 11: Mode=ai, RespID=22, RespName='New Respondent'
+2025-12-18 15:53:19,785 - api - INFO - Summary for Interview 12: Mode=ai, RespID=23, RespName='New Respondent'
+2025-12-18 15:53:19,791 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-18 15:56:33,031 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-18 15:56:58,717 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-18 16:01:50,206 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 16:01:50,430 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-18 16:01:50,440 - api - INFO - Summary for Interview 14: Mode=manual, RespID=25, RespName='IWAN SETIAWAN'
+2025-12-18 16:03:02,578 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-18 16:03:02,631 - api - INFO - Summary for Interview 14: Mode=manual, RespID=25, RespName='IWAN SETIAWAN'
+2025-12-18 16:04:11,640 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-18 16:04:11,684 - api - INFO - Summary for Interview 14: Mode=manual, RespID=25, RespName='IWAN SETIAWAN'
+2025-12-18 16:04:45,989 - api - INFO - Flushed Redis queues for new interview session.
+2025-12-18 16:04:46,519 - api - INFO - User 0 connected
+2025-12-18 16:04:46,550 - api - INFO - User 0 disconnected
+2025-12-18 16:04:46,553 - api - INFO - User 1 connected
+2025-12-18 16:04:46,563 - api - INFO - Loaded 10 questions
+2025-12-18 16:04:46,565 - api - INFO - InterviewSession created: user=1, interview=15
+2025-12-18 16:05:46,615 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-18 16:05:46,616 - api - INFO - User 1 disconnected
+2025-12-18 16:07:07,597 - api - INFO - Loaded 10 questions
+2025-12-18 16:07:17,634 - api - INFO - Loaded 10 questions
+2025-12-18 16:07:32,860 - api - INFO - RealtimeExtractionService initialized
+2025-12-18 16:07:53,722 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-18 16:07:53,727 - api - INFO - Summary for Interview 14: Mode=manual, RespID=25, RespName='IWAN SETIAWAN'
+2025-12-18 16:07:54,491 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-18 16:07:54,500 - api - INFO - Summary for Interview 14: Mode=manual, RespID=25, RespName='IWAN SETIAWAN'
+2025-12-18 16:08:40,432 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-18 16:08:40,449 - api - INFO - Summary for Interview 14: Mode=manual, RespID=25, RespName='IWAN SETIAWAN'
+2025-12-18 16:08:42,105 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-18 16:08:42,126 - api - INFO - Summary for Interview 14: Mode=manual, RespID=25, RespName='IWAN SETIAWAN'
+2025-12-19 12:30:12,164 - api - INFO - Loaded 10 questions
+2025-12-19 12:30:31,474 - api - INFO - RealtimeExtractionService initialized
+2025-12-19 12:37:02,410 - api - INFO - Summary for Interview 1: Mode=ai, RespID=12, RespName='New Respondent'
+2025-12-19 12:37:02,430 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-19 12:37:02,434 - api - INFO - Summary for Interview 3: Mode=ai, RespID=14, RespName='New Respondent'
+2025-12-19 12:37:02,435 - api - INFO - Summary for Interview 4: Mode=ai, RespID=15, RespName='New Respondent'
+2025-12-19 12:37:06,200 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-19 12:37:06,204 - api - INFO - Summary for Interview 3: Mode=ai, RespID=14, RespName='New Respondent'
+2025-12-19 12:37:06,206 - api - INFO - Summary for Interview 4: Mode=ai, RespID=15, RespName='New Respondent'
+2025-12-19 12:37:07,195 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-19 12:37:07,198 - api - INFO - Summary for Interview 3: Mode=ai, RespID=14, RespName='New Respondent'
+2025-12-19 12:37:07,201 - api - INFO - Summary for Interview 4: Mode=ai, RespID=15, RespName='New Respondent'
+2025-12-19 12:37:10,509 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-19 12:37:10,513 - api - INFO - Summary for Interview 3: Mode=ai, RespID=14, RespName='New Respondent'
+2025-12-19 12:37:11,039 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-19 12:37:11,042 - api - INFO - Summary for Interview 3: Mode=ai, RespID=14, RespName='New Respondent'
+2025-12-19 12:37:13,643 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-19 12:37:14,199 - api - INFO - Summary for Interview 2: Mode=ai, RespID=13, RespName='New Respondent'
+2025-12-19 12:37:26,174 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-19 12:37:26,178 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-19 12:37:26,181 - api - INFO - Summary for Interview 8: Mode=ai, RespID=19, RespName='New Respondent'
+2025-12-19 12:37:26,185 - api - INFO - Summary for Interview 9: Mode=ai, RespID=20, RespName='New Respondent'
+2025-12-19 12:37:26,190 - api - INFO - Summary for Interview 10: Mode=ai, RespID=21, RespName='New Respondent'
+2025-12-19 12:37:26,193 - api - INFO - Summary for Interview 11: Mode=ai, RespID=22, RespName='New Respondent'
+2025-12-19 12:37:26,195 - api - INFO - Summary for Interview 12: Mode=ai, RespID=23, RespName='New Respondent'
+2025-12-19 12:37:26,202 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-19 12:37:26,208 - api - INFO - Summary for Interview 14: Mode=manual, RespID=25, RespName='IWAN SETIAWAN'
+2025-12-19 12:37:26,217 - api - INFO - Summary for Interview 15: Mode=ai, RespID=26, RespName='New Respondent'
+2025-12-19 12:37:58,413 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-19 12:37:58,417 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-19 12:37:58,419 - api - INFO - Summary for Interview 8: Mode=ai, RespID=19, RespName='New Respondent'
+2025-12-19 12:37:58,422 - api - INFO - Summary for Interview 9: Mode=ai, RespID=20, RespName='New Respondent'
+2025-12-19 12:37:58,425 - api - INFO - Summary for Interview 10: Mode=ai, RespID=21, RespName='New Respondent'
+2025-12-19 12:37:58,428 - api - INFO - Summary for Interview 11: Mode=ai, RespID=22, RespName='New Respondent'
+2025-12-19 12:37:58,431 - api - INFO - Summary for Interview 12: Mode=ai, RespID=23, RespName='New Respondent'
+2025-12-19 12:37:58,436 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-19 12:37:58,443 - api - INFO - Summary for Interview 14: Mode=manual, RespID=25, RespName='IWAN SETIAWAN'
+2025-12-19 12:38:00,606 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-19 12:38:00,611 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-19 12:38:00,614 - api - INFO - Summary for Interview 8: Mode=ai, RespID=19, RespName='New Respondent'
+2025-12-19 12:38:00,618 - api - INFO - Summary for Interview 9: Mode=ai, RespID=20, RespName='New Respondent'
+2025-12-19 12:38:00,622 - api - INFO - Summary for Interview 10: Mode=ai, RespID=21, RespName='New Respondent'
+2025-12-19 12:38:00,626 - api - INFO - Summary for Interview 11: Mode=ai, RespID=22, RespName='New Respondent'
+2025-12-19 12:38:00,628 - api - INFO - Summary for Interview 12: Mode=ai, RespID=23, RespName='New Respondent'
+2025-12-19 12:38:00,634 - api - INFO - Summary for Interview 13: Mode=ai, RespID=24, RespName='New Respondent'
+2025-12-19 12:38:03,004 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-19 12:38:03,008 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-19 12:38:03,012 - api - INFO - Summary for Interview 8: Mode=ai, RespID=19, RespName='New Respondent'
+2025-12-19 12:38:03,016 - api - INFO - Summary for Interview 9: Mode=ai, RespID=20, RespName='New Respondent'
+2025-12-19 12:38:03,019 - api - INFO - Summary for Interview 10: Mode=ai, RespID=21, RespName='New Respondent'
+2025-12-19 12:38:03,023 - api - INFO - Summary for Interview 11: Mode=ai, RespID=22, RespName='New Respondent'
+2025-12-19 12:38:03,025 - api - INFO - Summary for Interview 12: Mode=ai, RespID=23, RespName='New Respondent'
+2025-12-19 12:38:05,345 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-19 12:38:05,350 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-19 12:38:05,354 - api - INFO - Summary for Interview 8: Mode=ai, RespID=19, RespName='New Respondent'
+2025-12-19 12:38:05,359 - api - INFO - Summary for Interview 9: Mode=ai, RespID=20, RespName='New Respondent'
+2025-12-19 12:38:05,362 - api - INFO - Summary for Interview 10: Mode=ai, RespID=21, RespName='New Respondent'
+2025-12-19 12:38:05,367 - api - INFO - Summary for Interview 11: Mode=ai, RespID=22, RespName='New Respondent'
+2025-12-19 12:38:08,532 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-19 12:38:08,535 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-19 12:38:08,539 - api - INFO - Summary for Interview 8: Mode=ai, RespID=19, RespName='New Respondent'
+2025-12-19 12:38:08,545 - api - INFO - Summary for Interview 9: Mode=ai, RespID=20, RespName='New Respondent'
+2025-12-19 12:38:08,549 - api - INFO - Summary for Interview 10: Mode=ai, RespID=21, RespName='New Respondent'
+2025-12-19 12:38:11,204 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-19 12:38:11,210 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-19 12:38:11,214 - api - INFO - Summary for Interview 8: Mode=ai, RespID=19, RespName='New Respondent'
+2025-12-19 12:38:11,218 - api - INFO - Summary for Interview 9: Mode=ai, RespID=20, RespName='New Respondent'
+2025-12-19 12:38:14,580 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-19 12:38:14,584 - api - INFO - Summary for Interview 7: Mode=ai, RespID=18, RespName='New Respondent'
+2025-12-19 12:38:14,587 - api - INFO - Summary for Interview 8: Mode=ai, RespID=19, RespName='New Respondent'
+2025-12-19 12:38:17,836 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-19 12:38:17,841 - api - INFO - Summary for Interview 8: Mode=ai, RespID=19, RespName='New Respondent'
+2025-12-19 12:38:20,886 - api - INFO - Summary for Interview 6: Mode=ai, RespID=17, RespName='New Respondent'
+2025-12-19 12:39:29,090 - api - INFO - User 0 connected
+2025-12-19 12:39:29,108 - api - INFO - User 0 disconnected
+2025-12-19 12:39:29,109 - api - INFO - User 3 connected
+2025-12-19 12:39:29,112 - api - INFO - Loaded 10 questions
+2025-12-19 12:39:29,114 - api - INFO - InterviewSession created: user=3, interview=1
+2025-12-19 12:40:52,956 - api - INFO - Transcribing 26 segments for full context...
+2025-12-19 12:41:28,579 - api - INFO - Applying LLM Diarization Correction...
+2025-12-19 12:41:49,929 - api - INFO - Applying Transcription Normalization...
+2025-12-19 12:41:57,896 - api - INFO - Saved full transcript to D:\smartcapi_pwa\smartcapi-backend\storage\interviews\processed\transcript.txt
+2025-12-19 12:41:57,910 - api - INFO - Batch Transcript for extraction (len=636)
+2025-12-19 12:41:59,813 - api - INFO - Batch Extracted Info: {'nama': None, 'tempat_lahir': None, 'tanggal_lahir': None, 'usia': '62', 'pendidikan': None, 'alamat': None, 'pekerjaan': None, 'hobi': [], 'nomor_telepon': '082120887138', 'alamat_email': None}
+2025-12-19 12:42:12,413 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-19 12:42:12,415 - api - INFO - User 3 disconnected
+2025-12-19 12:42:13,797 - api - INFO - Summary for Interview 1: Mode=ai, RespID=27, RespName='New Respondent'
+2025-12-19 12:42:19,799 - api - INFO - User 0 connected
+2025-12-19 12:42:19,810 - api - INFO - User 0 disconnected
+2025-12-19 12:42:19,812 - api - INFO - User 3 connected
+2025-12-19 12:42:19,814 - api - INFO - Loaded 10 questions
+2025-12-19 12:42:19,814 - api - INFO - InterviewSession created: user=3, interview=1
+2025-12-19 12:45:56,434 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-19 12:45:56,435 - api - INFO - User 3 disconnected
+2025-12-19 12:45:57,847 - api - INFO - User 0 connected
+2025-12-19 12:45:57,856 - api - INFO - User 0 disconnected
+2025-12-19 12:45:57,856 - api - INFO - User 3 connected
+2025-12-19 12:45:57,859 - api - INFO - Loaded 10 questions
+2025-12-19 12:45:57,859 - api - INFO - InterviewSession created: user=3, interview=2
+2025-12-19 12:45:59,192 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-19 12:45:59,192 - api - INFO - User 3 disconnected
+2025-12-19 12:45:59,724 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-19 12:45:59,739 - api - INFO - Summary for Interview 2: Mode=ai, RespID=29, RespName='New Respondent'
+2025-12-19 13:13:41,324 - api - INFO - Loaded 10 questions
+2025-12-19 13:14:00,457 - api - INFO - RealtimeExtractionService initialized
+2025-12-19 13:16:13,328 - api - INFO - Loaded 10 questions
+2025-12-19 13:16:18,333 - api - INFO - RealtimeExtractionService initialized
+2025-12-19 13:21:04,907 - api - INFO - Loaded 10 questions
+2025-12-19 13:21:09,913 - api - INFO - RealtimeExtractionService initialized
+2025-12-19 13:27:16,943 - api - INFO - Loaded 10 questions
+2025-12-19 13:27:17,126 - api - INFO - Loaded 10 questions
+2025-12-19 13:27:49,721 - api - INFO - RealtimeExtractionService initialized
+2025-12-19 13:27:49,735 - api - INFO - RealtimeExtractionService initialized
+2025-12-19 13:34:04,212 - api - INFO - Loaded 10 questions
+2025-12-19 13:34:09,191 - api - INFO - RealtimeExtractionService initialized
+2025-12-19 13:45:08,780 - api - INFO - Loaded 10 questions
+2025-12-19 13:45:25,465 - api - INFO - RealtimeExtractionService initialized
+2025-12-19 14:02:12,747 - api - INFO - Loaded 10 questions
+2025-12-19 14:02:16,046 - api - INFO - RealtimeExtractionService initialized
+2025-12-19 14:11:06,175 - api - INFO - Loaded 10 questions
+2025-12-19 14:11:09,047 - api - INFO - RealtimeExtractionService initialized
+2025-12-19 14:21:06,960 - api - INFO - Loaded 10 questions
+2025-12-19 14:21:10,140 - api - INFO - RealtimeExtractionService initialized
+2025-12-19 14:27:25,874 - api - INFO - Loaded 10 questions
+2025-12-19 14:27:29,105 - api - INFO - RealtimeExtractionService initialized
+2025-12-19 14:36:41,542 - api - INFO - Loaded 10 questions
+2025-12-19 14:36:44,759 - api - INFO - RealtimeExtractionService initialized
+2025-12-19 14:48:03,976 - api - INFO - Loaded 10 questions
+2025-12-19 14:48:19,320 - api - INFO - RealtimeExtractionService initialized
+2025-12-20 09:20:14,623 - api - INFO - Loaded 10 questions
+2025-12-20 09:20:38,320 - api - INFO - RealtimeExtractionService initialized
+2025-12-20 11:58:55,747 - api - INFO - Loaded 10 questions
+2025-12-20 11:59:06,596 - api - INFO - RealtimeExtractionService initialized
+2025-12-20 12:16:03,794 - api - INFO - Loaded 10 questions
+2025-12-20 12:16:05,469 - api - INFO - RealtimeExtractionService initialized
+2025-12-20 15:46:12,333 - api - INFO - Loaded 10 questions
+2025-12-20 15:46:18,892 - api - INFO - RealtimeExtractionService initialized
+2025-12-20 15:58:23,748 - api - INFO - Loaded 10 questions
+2025-12-20 15:58:28,019 - api - INFO - RealtimeExtractionService initialized
+2025-12-20 16:49:28,969 - api - INFO - Loaded 10 questions
+2025-12-20 16:49:52,424 - api - INFO - RealtimeExtractionService initialized
+2025-12-20 16:59:45,313 - api - INFO - Loaded 10 questions
+2025-12-20 16:59:50,261 - api - INFO - RealtimeExtractionService initialized
+2025-12-20 17:04:47,949 - api - INFO - Loaded 10 questions
+2025-12-20 17:04:51,394 - api - INFO - RealtimeExtractionService initialized
+2025-12-20 17:06:08,985 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-20 17:06:09,012 - api - INFO - Summary for Interview 2: Mode=ai, RespID=29, RespName='New Respondent'
+2025-12-20 17:08:55,985 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-20 17:08:56,003 - api - INFO - Summary for Interview 2: Mode=ai, RespID=29, RespName='New Respondent'
+2025-12-20 17:09:03,245 - api - INFO - User 0 connected
+2025-12-20 17:09:03,258 - api - INFO - User 0 disconnected
+2025-12-20 17:09:03,259 - api - INFO - User 3 connected
+2025-12-20 17:09:03,262 - api - INFO - Loaded 10 questions
+2025-12-20 17:09:03,262 - api - INFO - InterviewSession created: user=3, interview=3
+2025-12-20 17:11:42,025 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-20 17:11:42,037 - api - INFO - Summary for Interview 2: Mode=ai, RespID=29, RespName='New Respondent'
+2025-12-20 17:11:42,045 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-20 17:12:09,503 - api - INFO - Set current question for interview 3 to 6
+2025-12-20 17:12:45,715 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-20 17:12:45,730 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-20 17:13:30,589 - api - INFO - Set current question for interview 3 to 6
+2025-12-20 17:34:28,769 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-20 17:34:28,771 - api - INFO - User 3 disconnected
+2025-12-20 17:35:08,762 - api - INFO - Loaded 10 questions
+2025-12-20 18:05:45,413 - api - INFO - Loaded 10 questions
+2025-12-20 18:05:54,623 - api - INFO - RealtimeExtractionService initialized
+2025-12-20 18:06:47,247 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-20 18:06:47,254 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-20 18:06:47,468 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-20 18:06:47,476 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-20 18:06:47,502 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-20 18:06:47,506 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-20 18:06:50,422 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-20 18:06:50,432 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 06:49:58,573 - api - INFO - Loaded 10 questions
+2025-12-21 06:50:18,468 - api - INFO - RealtimeExtractionService initialized
+2025-12-21 06:52:44,199 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 06:52:44,220 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 06:52:52,033 - api - INFO - User 0 connected
+2025-12-21 06:52:52,049 - api - INFO - User 0 disconnected
+2025-12-21 06:52:52,049 - api - INFO - User 3 connected
+2025-12-21 06:52:52,057 - api - INFO - Loaded 10 questions
+2025-12-21 06:52:52,058 - api - INFO - InterviewSession created: user=3, interview=4
+2025-12-21 06:55:39,607 - api - INFO - Update Interview 4: update_data keys = dict_keys(['mode', 'duration', 'status'])
+2025-12-21 06:55:39,608 - api - INFO - Updating Respondent Data: {'full_name': 'Rati Widiastuti', 'birth_year': 2000, 'education': 'SMA', 'address': 'Jl. Taman Sari No. 10, RT 10, RW 10, Kel. 10, Kec. 10, Bandung'}
+2025-12-21 06:55:39,610 - api - INFO - Updated existing Respondent 31 details
+2025-12-21 06:55:39,631 - api - INFO - Updated Respondent Name to 'Rati Widiastuti' from extracted_data 'nama' field
+2025-12-21 06:55:39,740 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-21 06:55:39,741 - api - INFO - User 3 disconnected
+2025-12-21 06:55:39,846 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 06:55:39,860 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 06:55:39,877 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 06:56:40,186 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 06:56:40,204 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 06:56:40,222 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 06:56:57,317 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 06:56:57,335 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 06:56:57,354 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 07:02:10,666 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 07:02:10,682 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 07:02:10,699 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 07:02:12,506 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 07:02:12,522 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 07:02:12,543 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 07:02:31,228 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 07:02:31,247 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 07:02:31,265 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 07:22:38,024 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 07:22:38,075 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 07:22:38,095 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 12:39:31,385 - api - INFO - Loaded 10 questions
+2025-12-21 12:39:51,215 - api - INFO - RealtimeExtractionService initialized
+2025-12-21 12:41:58,541 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 12:41:58,565 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 12:41:58,582 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 12:42:00,290 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 12:42:00,301 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 12:42:00,318 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 12:42:01,059 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 12:42:01,071 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 12:42:01,087 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 12:42:01,198 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 12:42:01,214 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 12:42:01,229 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 12:42:01,366 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 12:42:01,384 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 12:42:01,399 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 12:42:01,559 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 12:42:01,580 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 12:42:01,595 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 12:42:01,745 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 12:42:01,757 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 12:42:01,772 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 12:42:02,262 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 12:42:02,275 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 12:42:02,291 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 12:42:02,822 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 12:42:02,836 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 12:42:02,850 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 12:42:03,001 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 12:42:03,017 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 12:42:03,028 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 12:42:03,395 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 12:42:03,409 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 12:42:03,423 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 12:47:30,765 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 12:47:30,774 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 12:47:30,786 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 12:47:44,587 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 12:47:44,612 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 12:47:44,628 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 18:25:42,073 - api - INFO - Loaded 10 questions
+2025-12-21 18:26:00,465 - api - INFO - RealtimeExtractionService initialized
+2025-12-21 18:26:01,348 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 18:26:01,373 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 18:26:01,389 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 18:26:03,205 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-21 18:26:03,215 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-21 18:26:03,231 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-21 18:26:06,509 - api - INFO - User 0 connected
+2025-12-21 18:26:06,526 - api - INFO - User 0 disconnected
+2025-12-21 18:26:06,526 - api - INFO - User 3 connected
+2025-12-21 18:26:06,538 - api - INFO - Loaded 10 questions
+2025-12-21 18:26:06,538 - api - INFO - InterviewSession created: user=3, interview=5
+2025-12-21 18:34:24,882 - api - INFO - Loaded 10 questions
+2025-12-22 11:20:16,967 - api - INFO - Loaded 10 questions
+2025-12-22 11:20:35,906 - api - INFO - RealtimeExtractionService initialized
+2025-12-22 11:22:58,484 - api - INFO - User 0 connected
+2025-12-22 11:22:58,531 - api - INFO - User 0 disconnected
+2025-12-22 11:22:58,531 - api - INFO - User 5 connected
+2025-12-22 11:22:58,540 - api - INFO - Loaded 10 questions
+2025-12-22 11:22:58,540 - api - INFO - InterviewSession created: user=5, interview=6
+2025-12-22 11:22:59,640 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:23:12,286 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:23:25,375 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:23:37,956 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:23:50,853 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:24:03,607 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:26:55,894 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-22 11:26:55,897 - api - INFO - User 5 disconnected
+2025-12-22 11:37:16,797 - api - INFO - Loaded 10 questions
+2025-12-22 11:38:47,955 - api - INFO - Loaded 10 questions
+2025-12-22 11:38:52,544 - api - INFO - RealtimeExtractionService initialized
+2025-12-22 11:39:09,571 - api - INFO - User 0 connected
+2025-12-22 11:39:09,584 - api - INFO - User 0 disconnected
+2025-12-22 11:39:09,585 - api - INFO - User 5 connected
+2025-12-22 11:39:09,586 - api - INFO - Loaded 10 questions
+2025-12-22 11:39:09,586 - api - INFO - InterviewSession created: user=5, interview=7
+2025-12-22 11:39:12,518 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:39:25,325 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:39:38,022 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:39:50,851 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:40:03,725 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:40:16,551 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:40:29,433 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:40:42,298 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:40:55,166 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:41:08,199 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:41:21,175 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:41:33,844 - api - ERROR - Error publishing audio chunk: 'Interview' object has no attribute 'audio_path'
+2025-12-22 11:42:17,816 - api - INFO - Update Interview 7: update_data keys = dict_keys(['mode', 'duration', 'status'])
+2025-12-22 11:42:17,816 - api - INFO - Updating Respondent Data: {'full_name': 'Iwan Setiawan', 'birth_year': 2001, 'education': 'D3', 'address': 'kompleks Buri Adik Bima, Desa Gajah'}
+2025-12-22 11:42:17,819 - api - INFO - Updated existing Respondent 34 details
+2025-12-22 11:42:17,837 - api - INFO - Updated Respondent Name to 'Iwan Setiawan' from extracted_data 'nama' field
+2025-12-22 11:42:18,741 - api - ERROR - WebSocket error: Cannot call "receive" once a disconnect message has been received.
+2025-12-22 11:42:18,744 - api - INFO - User 5 disconnected
+2025-12-22 11:42:18,767 - api - INFO - Summary for Interview 6: Mode=ai, RespID=33, RespName='New Respondent'
+2025-12-22 11:42:18,784 - api - INFO - Summary for Interview 7: Mode=ai, RespID=34, RespName='Iwan Setiawan'
+2025-12-22 11:46:20,784 - api - INFO - Summary for Interview 6: Mode=ai, RespID=33, RespName='New Respondent'
+2025-12-22 11:46:20,797 - api - INFO - Summary for Interview 7: Mode=ai, RespID=34, RespName='Iwan Setiawan'
+2025-12-22 11:46:20,816 - api - INFO - Summary for Interview 8: Mode=manual, RespID=35, RespName='IWAN SETIAWAN'
+2025-12-22 11:46:35,262 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-22 11:46:35,278 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-22 11:46:35,296 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-22 11:46:35,314 - api - INFO - Summary for Interview 5: Mode=ai, RespID=32, RespName='New Respondent'
+2025-12-22 11:46:35,322 - api - INFO - Summary for Interview 6: Mode=ai, RespID=33, RespName='New Respondent'
+2025-12-22 11:46:35,337 - api - INFO - Summary for Interview 7: Mode=ai, RespID=34, RespName='Iwan Setiawan'
+2025-12-22 11:46:35,358 - api - INFO - Summary for Interview 8: Mode=manual, RespID=35, RespName='IWAN SETIAWAN'
+2025-12-22 11:47:29,738 - api - INFO - Summary for Interview 6: Mode=ai, RespID=33, RespName='New Respondent'
+2025-12-22 11:47:29,754 - api - INFO - Summary for Interview 7: Mode=ai, RespID=34, RespName='Iwan Setiawan'
+2025-12-22 11:47:29,770 - api - INFO - Summary for Interview 8: Mode=manual, RespID=35, RespName='IWAN SETIAWAN'
+2025-12-24 08:37:41,620 - api - INFO - Loaded 10 questions
+2025-12-24 08:40:05,385 - api - INFO - RealtimeExtractionService initialized
+2025-12-24 08:41:19,921 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-24 08:41:20,066 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-24 08:41:20,253 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-24 08:41:20,388 - api - INFO - Summary for Interview 5: Mode=ai, RespID=32, RespName='New Respondent'
+2025-12-24 08:41:20,457 - api - INFO - Summary for Interview 6: Mode=ai, RespID=33, RespName='New Respondent'
+2025-12-24 08:41:20,532 - api - INFO - Summary for Interview 7: Mode=ai, RespID=34, RespName='Iwan Setiawan'
+2025-12-24 08:41:20,613 - api - INFO - Summary for Interview 8: Mode=manual, RespID=35, RespName='IWAN SETIAWAN'
+2025-12-24 08:41:29,633 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-24 08:41:29,700 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-24 08:41:29,772 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-24 08:41:29,864 - api - INFO - Summary for Interview 5: Mode=ai, RespID=32, RespName='New Respondent'
+2025-12-24 08:41:29,907 - api - INFO - Summary for Interview 6: Mode=ai, RespID=33, RespName='New Respondent'
+2025-12-24 08:41:29,963 - api - INFO - Summary for Interview 8: Mode=manual, RespID=35, RespName='IWAN SETIAWAN'
+2025-12-24 08:41:34,274 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-24 08:41:34,331 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-24 08:41:34,401 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-24 08:41:34,467 - api - INFO - Summary for Interview 5: Mode=ai, RespID=32, RespName='New Respondent'
+2025-12-24 08:41:34,528 - api - INFO - Summary for Interview 8: Mode=manual, RespID=35, RespName='IWAN SETIAWAN'
+2025-12-24 08:41:38,723 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-24 08:41:38,788 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-24 08:41:38,860 - api - INFO - Summary for Interview 4: Mode=ai, RespID=31, RespName='Rati Widiastuti'
+2025-12-24 08:41:38,936 - api - INFO - Summary for Interview 8: Mode=manual, RespID=35, RespName='IWAN SETIAWAN'
+2025-12-24 08:41:42,884 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-24 08:41:42,931 - api - INFO - Summary for Interview 3: Mode=ai, RespID=30, RespName='Ianto Sumanto Ayanto'
+2025-12-24 08:41:43,014 - api - INFO - Summary for Interview 8: Mode=manual, RespID=35, RespName='IWAN SETIAWAN'
+2025-12-24 08:41:49,473 - api - INFO - Summary for Interview 1: Mode=ai, RespID=28, RespName='New Respondent'
+2025-12-24 08:41:49,530 - api - INFO - Summary for Interview 8: Mode=manual, RespID=35, RespName='IWAN SETIAWAN'
+2025-12-24 08:41:53,880 - api - INFO - Summary for Interview 8: Mode=manual, RespID=35, RespName='IWAN SETIAWAN'

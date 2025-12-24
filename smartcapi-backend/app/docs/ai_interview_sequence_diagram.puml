@@ -1,0 +1,98 @@
+@startuml
+actor User
+participant "Login.vue" as Login
+participant "Router" as Router
+participant "useAuthStore (Pinia)" as Store
+participant "RekapitulasiPendataan.vue" as Dashboard
+participant "ModeSelect.vue" as ModeSelect
+participant "Interview.vue" as Interview
+
+title AI Interview Sequence Diagram (Component Level)
+
+== Authentication Flow ==
+User -> Login: Masukkan Username & Password
+activate Login
+Login -> Store: loginWithCredentials(username, password)
+activate Store
+Store --> Login: Login Berhasil (Role: user)
+deactivate Store
+
+Login -> Router: router.push('/rekapitulasi')
+activate Router
+Router -> Dashboard: Tampilkan RekapitulasiPendataan.vue
+deactivate Router
+deactivate Login
+activate Dashboard
+
+== Start New Interview Flow ==
+User -> Dashboard: Klik "Tambah Wawancara"
+Dashboard -> Router: router.push('/select-mode')
+deactivate Dashboard
+activate Router
+Router -> ModeSelect: Tampilkan ModeSelect.vue
+deactivate Router
+activate ModeSelect
+
+User -> ModeSelect: Klik "SmartCAPI dengan AI"
+ModeSelect -> Router: router.push('/interview')
+deactivate ModeSelect
+activate Router
+Router -> Interview: Tampilkan Interview.vue
+deactivate Router
+activate Interview
+
+== AI Assistant Initialization ==
+Interview -> Interview: onMounted()
+Interview -> Interview: connectWebSocket()
+Interview --> User: Tampilkan Banner "AI sedang bersiap..."
+Interview -> Interview: ws.onopen -> Send {"type": "start_interview"}
+Interview -> Interview: ws.onmessage ("current_question")
+Interview --> User: Update UI (Pertanyaan Aktif & Banner "Ready")
+
+== Interview Process (Real-time) ==
+loop Per Pertanyaan
+    User -> Interview: Baca Pertanyaan & Tanyakan ke Responden
+    User -> Interview: Klik Tombol Microfon (Start Recording)
+    Interview -> Interview: MediaRecorder.start()
+    
+    loop While Speaking
+        Interview -> Interview: Capture Audio Chunk
+        Interview -> Interview: ws.send(binary)
+        
+        opt Receive Token/Transcript
+            Interview -> Interview: ws.onmessage("transcript_update")
+            Interview --> User: (Optional) Show Live Transcript
+        end
+    end
+
+    User -> Interview: Klik Tombol Microfon (Stop Recording)
+    Interview -> Interview: MediaRecorder.stop()
+    Interview --> User: Spinner "Memproses..."
+
+    par Background Processing
+        Interview -> Interview: ws.onmessage("answer_extracted")
+        Interview --> User: Auto-fill Form Field + Confidence Badge
+        Interview -> Interview: ws.onmessage("set_question")
+        Interview --> User: Scroll to Next Question
+    end
+end
+
+== Finalization Flow ==
+User -> Interview: Review Form Data
+User -> Interview: Klik "Proses AI" (Manual Check)
+Interview -> Interview: api.processAudio()
+Interview --> User: Alert "Proses AI Selesai"
+
+User -> Interview: Klik "SUBMIT"
+Interview -> Interview: api.updateInterview()
+Interview --> User: Simpan Sukses
+
+Interview -> Router: router.push('/rekapitulasi')
+deactivate Interview
+activate Router
+Router -> Dashboard: Tampilkan RekapitulasiPendataan.vue
+deactivate Router
+activate Dashboard
+Dashboard -> Dashboard: Refresh Table Data
+
+@enduml
