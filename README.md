@@ -190,9 +190,9 @@ smartcapi_pwa/
 
 ## Administrator Credential for accessing PWA
 
-username : admincapi
-password : supercapi
-role     : managing users and database
+* username : admincapi
+* password : supercapi
+* role     : managing users and database
 
 ## � Python Libraries & Dependencies
 
@@ -231,5 +231,6 @@ This project is proprietary. All rights reserved.
 *   **Prof. Dr. Ir. Yoanes Bandung, S.T, M.T** - Advisor
   
 All contributors come from ITB-Bandung Institute of Technology
+
 
 
