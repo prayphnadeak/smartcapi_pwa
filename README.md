@@ -229,5 +229,7 @@ This project is proprietary. All rights reserved.
 *   **Pray Putra Hasianro Nadeak** - Developer
 *   **Irma Amalia Dewi**  Co-advisor
 *   **Prof. Dr. Ir. Yoanes Bandung, S.T, M.T** - Advisor
+  
 All contributors come from ITB-Bandung Institute of Technology
+
 
