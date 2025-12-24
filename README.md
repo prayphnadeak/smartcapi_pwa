@@ -1,7 +1,5 @@
 # SmartCAPI PWA
 
-![SmartCAPI Logo](https://via.placeholder.com/150) <!-- Replace with actual logo URL if available -->
-
 **SmartCAPI PWA** is a sophisticated Computer Assisted Personal Interviewing (CAPI) system designed as a Progressive Web App (PWA). It leverages advanced Artificial Intelligence (AI) to streamline field data collection, featuring offline capabilities, real-time audio transcription, and intelligent answer extraction.
 
 ## Key Features
@@ -231,6 +229,7 @@ This project is proprietary. All rights reserved.
 *   **Prof. Dr. Ir. Yoanes Bandung, S.T, M.T** - Advisor
   
 All contributors come from ITB-Bandung Institute of Technology
+
 
 
 
