@@ -1,0 +1,18 @@
+Running Address Extraction Tests...
+
+Testing: Long Address
+Transcript: oke alamat lengkap rumah saya adalah Jalan Merdeka Nomor 10 RT 01 RW 02 Kelurahan Maju Kecamatan Mundur Kota Jakarta Pusat Provinsi DKI Jakarta dan kode pos 12345 lalu warna rumah saya biru
+Extracted Address: Jl. Merdeka No. 10 RT 01 RW 02 Kel. Maju Kec. Mundur Kota Jakarta Pusat Prov. DKI Jakarta
+❌ FAIL
+Expected to contain: Jalan Merdeka Nomor 10 RT 01 RW 02 Kelurahan Maju Kecamatan Mundur Kota Jakarta Pusat Provinsi DKI Jakarta
+------------------------------
+Testing: Short Address
+Transcript: saya tinggal di Dusun Suka Maju di dekat pasar
+Extracted Address: Dusun Suka Maju di dekat pasar
+✅ PASS
+------------------------------
+Testing: Kabupaten Normalization
+Transcript: saya tinggal di Kabupaten Sleman
+Extracted Address: Kab. Sleman
+✅ PASS
+------------------------------

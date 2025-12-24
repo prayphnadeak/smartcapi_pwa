@@ -1,0 +1,7 @@
+Checking interviews for Enumerator ID: 5
+
+Found 3 interviews:
+
+ID=8, Date=2025-12-22 04:46:20, Status=active, Mode=manual, Respondent=IWAN SETIAWAN
+ID=7, Date=2025-12-22 04:39:09, Status=completed, Mode=ai, Respondent=Iwan Setiawan
+ID=6, Date=2025-12-22 04:22:57, Status=active, Mode=ai, Respondent=New Respondent

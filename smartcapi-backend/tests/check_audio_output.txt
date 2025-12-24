@@ -1,0 +1,8 @@
+Checking audio paths for interviews 6, 7, 8...
+
+ID=6, Mode=ai, Raw Audio Path=None
+  -> No audio path recorded.
+ID=7, Mode=ai, Raw Audio Path=None
+  -> No audio path recorded.
+ID=8, Mode=manual, Raw Audio Path=None
+  -> No audio path recorded.
