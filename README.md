@@ -43,7 +43,7 @@ Before you begin, ensure you have the following installed:
 *   [Redis](https://redis.io/) (Running locally or via Docker)
 *   [XAMPP](https://www.apachefriends.org/) (or any MySQL server)
 
-## 📦 Installation
+##  Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -94,7 +94,7 @@ npm install
 Configure environment variables:
 Create `.env` file referencing your backend API URL.
 
-## 🏃‍♂️ Usage
+## Usage
 
 ### Running the Backend
 In the `smartcapi-backend` directory, start the API server and Celery workers.
@@ -186,7 +186,7 @@ smartcapi_pwa/
     └── vite.config.js          # Vite Configuration
 ```
 
-## Administrator Credential for accessing PWA
+##  Administrator Credential for accessing PWA
 
 * username : admincapi
 * password : supercapi
@@ -220,15 +220,16 @@ The backend is built with a robust set of Python libraries to handle API request
 | **alembic** | Lightweight database migration tool for usage with SQLAlchemy. |
 | **email-validator** | Robust email syntax validation library. |
 
-## �📄 License
+##  License
 This project is proprietary. All rights reserved.
 
-## 👥 Contributors
+##  Contributors
 *   **Pray Putra Hasianro Nadeak** - Developer
 *   **Irma Amalia Dewi**  Co-advisor
 *   **Prof. Dr. Ir. Yoanes Bandung, S.T, M.T** - Advisor
   
 All contributors come from ITB-Bandung Institute of Technology
+
 
 
 
